@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: Inter;
     
 }
 .container{
@@ -95,6 +96,8 @@ p{
 .button{
     background-color: hsl(5, 85%, 63%);
     color: white;
+    width: 120px;
+    height: 30px;
 }
 
 .line{
