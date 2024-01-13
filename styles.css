@@ -15,7 +15,7 @@ body{
 }
 .navbar p{
     font-size: 30px;
-    font-weight: 800;
+    font-weight: bolder;
 }
 .links{
     display: flex;
@@ -59,7 +59,17 @@ h4{
 
 .rcard{
     grid-area: r;
-    height: 475px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 440px;
+    padding: 10px 20px 10px 20px;
+    background-color: hsl(240, 100%, 5%);
+    color: white;
+}
+
+.rcard > h2{
+    color: hsl(35, 77%, 62%);
 }
 
 .webh1{
@@ -80,7 +90,17 @@ p{
 
 .num{
     font-size: 40px;
+    color: gray;
 }
-.text{
+.button{
+    background-color: hsl(5, 85%, 63%);
+    color: white;
+}
 
+.line{
+    width: 300px;
+    border-bottom: 1px solid gray;
+    padding: 0px 10px 0px 20px;
+    color: gray;
+    /* border: 2px solid blue; */
 }
