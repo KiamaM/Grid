@@ -82,6 +82,7 @@ h4{
 .web{
     grid-area: w;
     height: 150px;
+    color: gray;
 }
 
 p{
@@ -106,4 +107,8 @@ p{
     padding: 0px 10px 0px 20px;
     color: gray;
     /* border: 2px solid blue; */
+}
+
+.text > p{
+    color: gray;
 }
